@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <!-- CDN pour icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <!-- TITRE -->
+    <title>Le carré d'As restaurant</title>
+</head>
+
+<body>
+
+    <!-- DEBUT ACCUEIL -->
+    <section id="accueil">
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+            <div class="container-xxl">
+                <a href="" class="navbar-brand">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-x-diamond-fill">
+                        <path
+                            d="M9.05.435c-.58-.58-1.52-.58-2.1 0L4.047 3.339 8 7.293l3.954-3.954L9.049.435zm3.61 3.611L8.708 8l3.954 3.954 2.904-2.905c.58-.58.58-1.519 0-2.098l-2.904-2.905zm-.706 8.614L8 8.708l-3.954 3.954 2.905 2.904c.58.58 1.519.58 2.098 0l2.905-2.904zm-8.614-.706L7.292 8 3.339 4.046.435 6.951c-.58.58-.58 1.519 0 2.098l2.904 2.905z" />
+                    </svg>
+                    <span class="fw-bold text-secondary display-6">Le carré d'As</span>
+                </a>
+                <!-- toogle button pour mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#accueil">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carte.html">La carte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reservation">Réserver</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Nous contacter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--  DEBUT PRESENTATION -->
+        <div class="card">
+            <img src="img/header.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title display-2 text-center">Le carré d'As</h5>
+                <p class="card-text text-center pe-5 ps-5 pt-3 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Tempore optio, at inventore atque tempora animi incidunt sunt praesentium similique veritatis
+                    dolores recusandae? Velit est eius saepe rerum, modi iste quasi!</p>
+            </div>
+        </div>
+        <!-- FIN PRESENTATION -->
+
+        <!-- DEBUT CARTE -->
+        <section class="carte m-5">
+
+            <!-- <h2 class="display-6 text-center m-5">Voici la carte :</h2> -->
+
+            <div id="carte" class="row row-cols-1 row-cols-md-2 g-4 m-5">
+
+                <!-- DEBUT BOISSON -->
+                <div class="col">
+                    <div class="card">
+                        <img src="img/boisson.jpg" class="card-img-top" alt="...">
+                        <div class="card-body m-5">
+                            <h5 class="card-title text-center display-6">Nos boissons</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <a href="carte.html#boisson"><button type="button"
+                                        class="btn btn-outline-secondary">Voir nos boissons</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIN BOISSON -->
+
+                <!-- DEBUT ENTREE -->
+                <div class="col">
+                    <div class="card">
+                        <img src="img/entree.jpg" class="card-img-top" alt="...">
+                        <div class="card-body m-5">
+                            <h5 class="card-title text-center display-6">Nos entrées</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <a href="carte.html#entree"><button type="button" class="btn btn-outline-secondary">Voir
+                                        nos entrées</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIN ENTREE -->
+
+                <!-- DEBUT PLAT -->
+                <div class="col">
+                    <div class="card">
+                        <img src="img/plat.jpg" class="card-img-top" alt="...">
+                        <div class="card-body m-5">
+                            <h5 class="card-title text-center display-6">Nos plats</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <a href="carte.html#plat"><button type="button" class="btn btn-outline-secondary">Voir
+                                        nos plats</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FIN PLAT -->
+
+                <!-- DEBUT DESSERT -->
+                <div class="col">
+                    <div class="card">
+                        <img src="img/dessert.jpg" class="card-img-top" alt="...">
+                        <div class="card-body m-5">
+                            <h5 class="card-title text-center display-6">Nos plats</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <a href="carte.html#dessert"><button type="button"
+                                        class="btn btn-outline-secondary">Voir nos dessert</button>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- FIN DESSERT -->
+            </div>
+            <!-- FIN CARTE -->
+        </section>
+
+        <!-- DEBUT RESERVATION -->
+        <section id="reservation">
+
+            <form action="post">
+                <div class="container-fluid p-5 mt-5 text-center bg-light">
+                    <div class="">
+                        <div>
+                            <h1><strong>Reservation</strong></h1>
+                        </div>
+
+                        <br>
+                        <div>
+                            <p>Civilité</p>
+                            <input type="radio" id="femme" name="sexe">
+                            <label for="radio">femme</label>
+                            <input type="radio" id="homme" name="sexe" class="ms-5">
+                            <label for="radio">homme</label>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" placeholder="Nom *" required class="mt-2 rounded" style="width: 18%;">
+                            <input type="text" placeholder="Prénom *" required class="ms-5 mt-2 rounded"
+                                style="width: 18%;">
+                        </div>
+                        <br>
+                        <div>
+                            <input type="email" placeholder="Mail *" required style="width: 18%;" class="rounded">
+                            <input type="number" placeholder="Téléphone" required class="ms-5 rounded"
+                                style="width: 18%;">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="birthday">choisir une date</label><br>
+                            <input type="date" class="rounded" style="width: 18%;">
+                        </div>
+                        <br>
+                        <div>
+                            <input type="radio" id="interieur" name="endroit">
+                            <label for="radio">interieur</label>
+                            <input type="radio" id="exterieur" name="endroit" class="ms-5">
+                            <label for="radio">exterieur</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="checkbox" name="checkbox" required="required" placeholder="Optout newsletter"
+                            value="1">
+                        <label for="chekbox">
+                            accepter les condition d'utilisations
+                        </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="checkbox" placeholder="Optout newsletter" value="1">
+                        <label for="chekbox">
+                            Je souhaite recevoir les offres et communications du restaurant, par email et par sms
+                        </label>
+                    </div>
+                    <br>
+                    <button type="button" id="btn" class="btn btn-dark">Reserver</button>
+            </form>
+            </div>
+            <div id="alert" class="alert alert-success" role="alert">
+                votre reservation a ete effectué
+            </div>
+
+        </section>
+        <!-- FIN RESERVATION -->
+
+        <!-- DEBUT FOOTER -->
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <div class="me-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-x-diamond-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M9.05.435c-.58-.58-1.52-.58-2.1 0L4.047 3.339 8 7.293l3.954-3.954L9.049.435zm3.61 3.611L8.708 8l3.954 3.954 2.904-2.905c.58-.58.58-1.519 0-2.098l-2.904-2.905zm-.706 8.614L8 8.708l-3.954 3.954 2.905 2.904c.58.58 1.519.58 2.098 0l2.905-2.904zm-8.614-.706L7.292 8 3.339 4.046.435 6.951c-.58.58-.58 1.519 0 2.098l2.904 2.905z" />
+                        </svg>
+                    </div>
+
+                    <span class="text-muted">2021 © Le carré d'As </span>
+                </div>
+            </footer>
+        </div>
+        <!-- FIN FOOTER -->
+
+    </section>
+    <!-- FIN ACCUEIL -->
+
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
